@@ -51,7 +51,7 @@ public struct PairsABTestMacro: MemberMacro {
 
 @main
 struct PairsABTestPlugin: CompilerPlugin {
-    let providingMacros: [Macro.Type] = [
-      PairsABTestMacro.self,
-    ]
+  let providingMacros: [Macro.Type] = [
+    PairsABTestMacro.self,
+  ]
 }
